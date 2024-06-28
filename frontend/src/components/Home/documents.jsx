@@ -58,9 +58,9 @@ const Documents = [
 const Presentations = [
   {
     title: "Project Proposal",
-    date: "2024/01/29",
+    date: "2024/05/08",
     type: "Group",
-    downloadLink: "https://drive.google.com/file/d/1m70fsjvevIE0gWS6XRDNj6xiJUfbRUgi/view?usp=sharing"
+    downloadLink: "https://docs.google.com/presentation/d/1vy414W-IQSqWl6w1nIOnakQRSPIAhfN2/edit?usp=sharing&ouid=115823091121934519360&rtpof=true&sd=true"
   },
   {
     title: "Progress Presentation I",
