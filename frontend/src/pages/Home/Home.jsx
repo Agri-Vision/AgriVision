@@ -6,7 +6,7 @@ import Milestones from '../../components/Home/milestones'
 import Documents from '../../components/Home/documents'
 import AboutUs from '../../components/Home/aboutUs'
 import ContactUs from '../../components/Home/contactUs'
-import ProfileCard from '../../components/Home/profileCard'
+
 
 
 // import './home.css'
