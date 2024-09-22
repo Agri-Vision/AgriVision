@@ -46,7 +46,7 @@ const ProjectScope = () => {
       </div>
 
       {/* New Section: Research Objectives */}
-      <div className="mt-[60px] text-2xl text-center mb-8 capitalize text-[color:#324d67] mb-3 font-semibold">
+      <div className="mt-[60px] text-2xl text-center mb-8 capitalize text-[color:#061a29] mb-3 font-semibold">
         <h2>Research Objectives</h2>
         <div className="w-20 h-1 mb-5 mx-auto bg-[#0092FB]"></div>
       </div>
