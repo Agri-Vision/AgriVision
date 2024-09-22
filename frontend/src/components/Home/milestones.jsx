@@ -1,5 +1,6 @@
 import React from 'react'
 import Technologies from '../../components/Home/technologies'
+import Methodology from '../../components/Home/methodology'
 
 const milestones = () => {
   return (
@@ -8,6 +9,14 @@ const milestones = () => {
         <h2>Milestones</h2>
         <div className="w-20 h-1 mb-5 mx-auto bg-[#0092FB]"></div>
       </div>
+
+       <div className="">
+        <div className="">
+          <Methodology />
+        </div>
+      </div> 
+
+
       <div className="">
         <div className="">
           <Technologies />

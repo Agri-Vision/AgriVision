@@ -17,7 +17,7 @@ const Footer = () => {
             </div>
 
             <p className="max-w-xs mt-4 text-gray-500">
-              Discover amazing places to visit and create unforgettable memories
+            THE MOST POWERFUL FIELD ANALYTICS TOOL FOR PRECISION AGRICULTURE
             </p>
 
             <ul className="flex gap-6 mt-8">

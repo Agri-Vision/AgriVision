@@ -10,7 +10,7 @@ import React, { useState, useRef, useEffect, useContext } from 'react'
 // import React from 'react';
 import './navbar.css'
 import backgroundImage from './Backgrond.jpg'; 
-import logo from '../Navbar/logo.png'
+import logo from '../Navbar/Web Logo 08.png'
 
 // const Navbar = () => {
 //   const [showLinks, setShowLinks] = useState(false)
@@ -94,8 +94,8 @@ const NavBar = () => {
     <div>
       <nav className={`fixed top-0 left-0 w-full flex justify-between items-center p-6 transition duration-300 ${isScrolled ? 'bg-gray-800' : 'bg-transparent'} z-50`}>
         <div className="flex items-center space-x-2">
-          <img src={logo} alt="Logo" className="h-14 w-14" />
-          <div className="text-white font-bold text-2xl">Agri-Vision</div>
+          <img src={logo} alt="Logo" className="h-20 w-25" />
+          {/* <div className="text-white font-bold text-2xl">Agri-Vision</div> */}
         </div>
         <div className="flex space-x-6">
           <a href="#home" className="text-white hover:text-green-500 hover:underline hover:underline-offset-8 hover:decoration-2 hover:decoration-green-500 transition duration-300">Home</a>
@@ -119,8 +119,8 @@ const NavBar = () => {
       <div className="relative h-screen w-full bg-cover bg-center" style={{ backgroundImage: `url(${backgroundImage})` }}>
         <div className="absolute inset-0 bg-black opacity-10"></div>
         <div className="flex flex-col items-center justify-center h-full text-center px-4">
-          <h1 className="text-white text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Welcome to Magic Camping Ground</h1>
-          <p className="text-white text-lg md:text-xl lg:text-2xl max-w-2xl mx-auto">Nestled in a wondrous corner of nature, our camping ground offers a unique experience that combines the enchantment of the great outdoors with captivating activities.</p>
+          <h1 className="text-white text-4xl md:text-5xl lg:text-4xl font-bold mb-4">THE MOST POWERFUL FIELD ANALYTICS TOOL FOR PRECISION AGRICULTURE          </h1>
+          <p className="text-white text-lg md:text-xl lg:text-2xl max-w-2xl mx-auto">Description</p>
         </div>
         <div className="absolute bottom-0 left-0 w-full h-20 bg-white rounded-t-full"></div>
       </div>

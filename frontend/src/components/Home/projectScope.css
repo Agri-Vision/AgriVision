@@ -1,0 +1,13 @@
+/* Example of additional custom styling */
+.project-scope-text {
+  padding: 20px;
+}
+
+.project-scope-image {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  margin-bottom: 1.5rem; /* Adjust the spacing between paragraphs */
+}
