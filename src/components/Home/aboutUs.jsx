@@ -10,12 +10,12 @@ import prathila from './Img/prathila.jpeg'
 
 const aboutUs = () => {
   return (
-    <div className="mt-10">
+    <div className="mt-10 mb-10">
       <div className=" min-h-screen flex flex-wrap items-center justify-around">
         <div className="container mx-auto">
 
-        <h2 className="text-3xl font-bold text-center mb-6">About Us</h2>
-        <p className="text-center text-gray-600 mb-8">Meet Our Team !</p>
+        <h2 className="text-3xl font-bold text-center mb-2">ABOUT US</h2>
+        <p className="text-center text-gray-600 mb-8">Meet Our Team</p>
 
         {/* <div className="flex flex-wrap justify-center"> */}
         <div className="ml-60 grid grid-cols-5 gap-4 justify-center"> 

@@ -17,8 +17,8 @@ const Methodology = () => {
 
   return (
     <div className="methodology-container mt-10">
-      <div className="p-8 text-center">
-        <h2 className="text-3xl font-bold mb-8">Methodology</h2>
+      <div className="mt-[60px] text-2xl text-center mb-8 capitalize text-[color:#324d67] mb-3 font-semibold">
+        <h2 className="text-3xl font-bold mb-8">  METHODOLOGY</h2>
         <div className="image-wrapper">
           <img
             src={Systemdiagram}

@@ -91,7 +91,7 @@ const documents = () => {
     <section className="py-8 bg-gray-100">
       {/* All Documents */}
       <div className="container mx-auto px-2">
-        <h2 className="text-3xl font-bold text-center mb-6">Documents</h2>
+        <h2 className="text-3xl font-bold text-Left mb-4 mt-10 ">DOCUMENTS</h2>
         <p className="text-center text-gray-600 mb-8">Please find all documents related to this research below.</p>
 
         <div className="ml-10 grid grid-cols-5 gap-2 justify-center ">
@@ -136,7 +136,7 @@ const documents = () => {
 
 {/* All Presentations */}
       <div className="container mx-auto px-2">
-        <h2 className="text-3xl font-bold text-center mb-6">Presentations</h2>
+        <h2 className="text-3xl font-bold text-center mb-4 mt-10">PRESENTATIONS</h2>
         <p className="text-center text-gray-600 mb-8">Please find all presentations related to this research below.</p>
 
         <div className="ml-10 grid grid-cols-5 gap-4 justify-center">
