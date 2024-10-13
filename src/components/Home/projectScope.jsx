@@ -21,23 +21,25 @@ const ProjectScope = () => {
       </div>
 
           <p className="text-lg leading-relaxed text-justify">
-            As global tea demand rises, large-scale plantations face increasing management challenges. To address this, the industry 
-            has adopted precision agriculture, which utilizes IoT and aerial imaging technologies for enhanced monitoring. Thereza et 
-            al. [3] developed an IoT-based smart farming system for tea plantations, using sensors to track temperature, pressure, 
-            humidity, and altitude, transmitting data via LoRa to a central database for real-time monitoring. However, the study 
-            indicated the need for improved automation and mobile accessibility. Gupta et al. [4] explored the integration of GPS, 
-            GIS, and sensor networks to analyze soil and environmental data, improving decision-making but lacking real-time 
-            monitoring and multispectral imagery, essential for assessing plant health.
+          Precision agriculture has emerged as a crucial tool in modern farming, utilizing advanced technologies such as multispectral imaging, 
+          IoT, and machine learning to enhance crop management and yield estimation. Research by Barman (2020) demonstrated the use of Landsat-7 
+          ETM+ imagery and GIS for assessing tea bush health and estimating yield in India [1]. This study highlighted how spectral data can differentiate
+           between healthy and unhealthy tea bushes, enabling early interventions and more accurate yield predictions. However, it also pointed out limitations
+            in correlating remote sensing data with on-the-ground conditions, suggesting a need for more precise methodologies. Similarly, a hybrid approach 
+            developed by researchers from Pakistan combined the FAO AquaCrop simulation model with machine learning algorithms such as XGBoost to 
+            predict tea yields based on data from weather, soil, crop, and agro-management [2]. While this method improved yield prediction accuracy, 
+            it lacked integration with real-time data and ground-truth validation, underscoring the need for more comprehensive systems that can utilize
+             a broader range of data sources.
           </p>
 
           <p className="text-lg leading-relaxed text-justify">
-            Other research highlights the growing role of multispectral imagery in agriculture. Putra et al. [5] showed the potential 
-            for low-cost digital cameras and sensors in monitoring plantations but emphasized the need for better infrastructure and data 
-            processing. Lum et al. [6] discussed the benefits of multispectral imaging in assessing chlorophyll content and water stress, 
-            though focusing on sensor capabilities rather than practical applications. Septyadi et al. [7] demonstrated the effectiveness of 
-            UAV-based multispectral imaging using indices like NDVI but called for improved data integration into a unified monitoring system. 
-            Phan et al. [8] examined NDVI's potential for forecasting tea yields by correlating the data with meteorological factors, though 
-            the study lacked a user-friendly system for farmers.
+          Furthermore, research from Wayamba University in Sri Lanka applied multispectral drone imagery to estimate rice yields before harvest, 
+          showcasing the potential of UAV-based imaging over traditional manual methods [3]. This study demonstrated the effectiveness of multispectral 
+          data in stress detection and yield prediction, but its application was limited to rice crops. The use of such technology in tea plantations, 
+          especially for detecting plant stress and diseases like brown blight, remains underexplored. While indices such as NDVI and RENDVI have been 
+          proven effective in analyzing plant health and detecting stress in other crops, their application for tea-specific issues requires further 
+          investigation. These gaps in the existing research present a significant opportunity to develop integrated systems that combine multispectral 
+          imaging, IoT data, and machine learning to address the unique challenges of tea plantations.
           </p>
         </div>
 
@@ -72,12 +74,11 @@ const ProjectScope = () => {
             <FaSearch className="text-green-600 text-4xl" />
           </div>
           <h3 className="text-xl font-semibold text-center mb-2">
-            Identification & classification
+          Tea Yield Prediction
           </h3>
           <p className="text-justify text-gray-600">
-            There are no records of a smart solution for coconut pest and disease identification 
-            and classification in Sri Lanka. Symptoms of coconut disorders show similar characteristic 
-            appearance and therefore it is a challenge to provide a solution.
+          Limited research has focused specifically on tea yield prediction. The use of multispectral drone imagery for yield estimation
+           in tea plantations remains underexplored, leaving a gap in efficient methods to predict tea yields using advanced imaging techniques​
           </p>
         </div>
 
@@ -87,11 +88,11 @@ const ProjectScope = () => {
             <FaChartLine className="text-green-600 text-4xl" />
           </div>
           <h3 className="text-xl font-semibold text-center mb-2">
-            Severity assessment
+          Plant Stress Detection
           </h3>
           <p className="text-justify text-gray-600">
-            Smart solution for identification of some coconut pest and diseases is reported in India 
-            but assessment on severity of disease condition and progression level of pest damage is not attempted.
+          Early detection of stress in tea plants is vital for maintaining yield. Current systems rely on limited imaging techniques, and there is a need for 
+          methods that combine multispectral imaging with real-time environmental data for more accurate stress detection​
           </p>
         </div>
 
@@ -101,11 +102,24 @@ const ProjectScope = () => {
             <FaComments className="text-green-600 text-4xl" />
           </div>
           <h3 className="text-xl font-semibold text-center mb-2">
-            Information sharing
+          Disease Identification
           </h3>
           <p className="text-justify text-gray-600">
-            Real time communication system to speed up information sharing between coconut growers, extension 
-            personals and researchers has been identified as priority need for effective pest and disease control.
+          Despite advancements in remote sensing for disease detection, there are few practical systems specifically targeting tea diseases like brown blight. 
+          Drone-based multispectral imagery for early disease detection in tea plantations is still underutilized​
+          </p>
+        </div>
+        {/* Card 4 */}
+        <div className="w-full lg:w-1/4 p-6 bg-white shadow-lg rounded-lg border border-green-500 h-80">
+          <div className="flex justify-center mb-4">
+            <FaComments className="text-green-600 text-4xl" />
+          </div>
+          <h3 className="text-xl font-semibold text-center mb-2">
+          Multispectral Image Processing
+          </h3>
+          <p className="text-justify text-gray-600">
+          While multispectral imaging is effective in capturing plant health data, current systems lack advanced processing techniques to fully utilize this data.
+           There is a need for more sophisticated algorithms to process multispectral images for yield, stress, and disease analysis
           </p>
         </div>
       </div>
@@ -128,13 +142,11 @@ const ProjectScope = () => {
      
       <div className="flex flex-wrap justify-center  px-4">
       <p className="text-lg leading-relaxed text-justify">
-            As global tea demand rises, large-scale plantations face increasing management challenges. To address this, the industry 
-            has adopted precision agriculture, which utilizes IoT and aerial imaging technologies for enhanced monitoring. Thereza et 
-            al. [3] developed an IoT-based smart farming system for tea plantations, using sensors to track temperature, pressure, 
-            humidity, and altitude, transmitting data via LoRa to a central database for real-time monitoring. However, the study 
-            indicated the need for improved automation and mobile accessibility. Gupta et al. [4] explored the integration of GPS, 
-            GIS, and sensor networks to analyze soil and environmental data, improving decision-making but lacking real-time 
-            monitoring and multispectral imagery, essential for assessing plant health.
+      Sri Lanka, despite being one of the largest producers of tea globally, has seen a decline in productivity over the past decade. 
+      The primary issue lies in the difficulties faced by tea plantation managers in monitoring large-scale plantations efficiently, 
+      which are often located in geographically challenging areas. The lack of accurate, real-time data on crop health, environmental stress, 
+      and disease presence leads to poor resource allocation and suboptimal management, directly impacting the yield and profitability of the tea industry. 
+      Moreover, early detection of stress and diseases in tea plants remains a significant challenge, further exacerbating the issue.
           </p>
       </div>
 
@@ -158,13 +170,11 @@ const ProjectScope = () => {
               <div className="w-full lg:w-2/4 ">
 
                 <p className="text-lg leading-relaxed text-justify">
-                  As global tea demand rises, large-scale plantations face increasing management challenges. To address this, the industry 
-                  has adopted precision agriculture, which utilizes IoT and aerial imaging technologies for enhanced monitoring. Thereza et 
-                  al. [3] developed an IoT-based smart farming system for tea plantations, using sensors to track temperature, pressure, 
-                  humidity, and altitude, transmitting data via LoRa to a central database for real-time monitoring. However, the study 
-                  indicated the need for improved automation and mobile accessibility. Gupta et al. [4] explored the integration of GPS, 
-                  GIS, and sensor networks to analyze soil and environmental data, improving decision-making but lacking real-time 
-                  monitoring and multispectral imagery, essential for assessing plant health.
+                The proposed solution is to develop a comprehensive tea plantation monitoring system that integrates multispectral drone imagery, 
+                IoT sensors, and machine learning models. This system will enable real-time monitoring of tea plantations, providing plantation managers with 
+                actionable insights for early stress detection, yield estimation, and disease identification. By leveraging data from multiple sources, including 
+                multispectral imaging for plant health analysis and IoT devices for environmental monitoring, the solution aims to optimize resource use, improve decision-making, 
+                and enhance the overall productivity and sustainability of tea plantations.
                 </p>
               </div>
 
@@ -194,10 +204,10 @@ const ProjectScope = () => {
           </div>
           {/* Text content */}
           <div>
-            <h3 className="text-xl font-semibold">Research Objective</h3>
+            <h3 className="text-xl font-semibold">Collect and Analyze Multispectral Images and IoT Data</h3>
             <p className="mt-2 text-justify">
-              Research Objective Description
-            </p>
+            The first objective is to gather high-resolution multispectral images using drones and integrate this data with real-time environmental data collected through IoT devices placed throughout the tea plantation. The IoT sensors monitor critical environmental parameters such as soil moisture, temperature, humidity, and UV radiation. By combining these two data sources, the system aims to provide a comprehensive view of the plantation’s health, allowing for more accurate analysis and decision-making regarding the overall condition of the crops.
+             </p>
           </div>
         </div>
 
@@ -209,9 +219,9 @@ const ProjectScope = () => {
           </div>
           {/* Text content */}
           <div>
-            <h3 className="text-xl font-semibold">Research Objective</h3>
+            <h3 className="text-xl font-semibold">Tea Yield Prediction using NDVI</h3>
             <p className="mt-2 text-justify">
-              Research Objective Description
+            The second objective involves utilizing the NDVI derived from multispectral images to estimate the yield potential of tea plantations. By monitoring the vigor and health of the tea plants over time and correlating this with environmental conditions, the system will provide early yield estimates. This will allow plantation managers to optimize resource allocation, plan for harvests more efficiently, and predict production levels well in advance, contributing to better overall plantation management and profitability.
             </p>
           </div>
         </div>
@@ -224,9 +234,9 @@ const ProjectScope = () => {
           </div>
           {/* Text content */}
           <div>
-            <h3 className="text-xl font-semibold">Research Objective</h3>
+            <h3 className="text-xl font-semibold">Develop Stress Detection System</h3>
             <p className="mt-2 text-justify">
-              Research Objective Description
+            The third objective focuses on creating a system that leverages the multispectral data in combination with the IoT sensor readings to detect early signs of stress in tea plants. By analyzing specific vegetation indices such as NDVI (Normalized Difference Vegetation Index) and RENDVI (Red-Edge NDVI), along with environmental factors like soil moisture and temperature, the system will be able to provide real-time insights into the stress levels of plants. This will help plantation managers take timely action to mitigate the impact of environmental or biological stressors on crop health and yield.
             </p>
           </div>
         </div>
@@ -239,9 +249,23 @@ const ProjectScope = () => {
           </div>
           {/* Text content */}
           <div>
-            <h3 className="text-xl font-semibold">Research Objective</h3>
+            <h3 className="text-xl font-semibold">Disease Detection and Identification</h3>
             <p className="mt-2 text-justify">
-              Research Objective Description
+            The fourth objective is to implement machine learning models that can accurately identify diseases such as brown blight in tea plants. Using the spectral data obtained from the drone-captured multispectral images, the system will train models to detect specific patterns associated with various diseases. Early identification of diseases will enable plantation managers to implement timely interventions, thereby minimizing the spread of infections and reducing the potential loss of crops due to untreated diseases
+            </p>
+          </div>
+        </div>
+        {/* Objective 4 */}
+        <div className="flex flex-row items-start gap-4 p-6 bg-white shadow-md rounded-lg w-3/4 relative transition-transform transform hover:scale-105 duration-300">
+          {/* Green Star */}
+          <div className="w-8 h-8 bg-green-500 text-white flex justify-center items-center rounded-full">
+            ★
+          </div>
+          {/* Text content */}
+          <div>
+            <h3 className="text-xl font-semibold">Visualization and Web Application</h3>
+            <p className="mt-2 text-justify">
+            The final objective is to develop a web-based platform that provides an interactive visualization of the analyzed data, including yield predictions, stress maps, and disease detection results. The platform will be user-friendly and accessible to plantation managers and stakeholders, allowing them to monitor their plantations remotely in real-time. The visualized data will help stakeholders make informed decisions regarding resource allocation, plantation management, and overall strategy to maximize productivity and sustainability.
             </p>
           </div>
         </div>
