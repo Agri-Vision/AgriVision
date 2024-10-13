@@ -202,7 +202,7 @@ const ProjectScope = () => {
       {/* Container for objectives */}
       <div className="flex flex-col items-center gap-10">
         {/* Objective 1 */}
-        <div className="flex flex-row items-start gap-4 p-6 bg-white shadow-md rounded-lg w-3/4 relative transition-transform transform hover:scale-105 duration-300">
+        <div className="flex flex-row items-start gap-4 p-6 bg-white shadow-md rounded-lg w-3/4 relative transition-transform transform hover:scale-105 duration-300 border border-gray-300">
           {/* Green Star */}
           <div className="w-8 h-8 bg-green-500 text-white flex justify-center items-center rounded-full">
             
@@ -221,26 +221,27 @@ const ProjectScope = () => {
         </div>
 
         {/* Objective 2 */}
-        <div className="flex flex-row items-start gap-4 p-6 bg-white shadow-md rounded-lg w-3/4 relative transition-transform transform hover:scale-105 duration-300">
-          {/* Green Star */}
-          <div className="w-8 h-8 bg-green-500 text-white flex justify-center items-center rounded-full">
-            
-          </div>
-          {/* Text content */}
-          <div>
-            <h3 className="text-xl font-semibold  text-[color:#324d67]">TEA YIELD PREDICTION USING NDVI</h3>
-            <p className="mt-2 text-justify">
-            The second objective involves utilizing the NDVI derived from multispectral images to estimate the yield potential of tea plantations. By monitoring the vigor and health of the tea plants over time and correlating this with environmental conditions, the system will provide early yield estimates. This will allow plantation managers to optimize resource allocation, plan for harvests more efficiently, and predict production levels well in advance, contributing to better overall plantation management and profitability.
-            </p>
-          </div>
-          {/* Green Star */}
-          <div className="w-8 h-8 bg-green-500 text-white flex justify-center items-center rounded-full">
-            
-          </div>
-        </div>
+<div className="flex flex-row items-start gap-4 p-6 bg-white shadow-md rounded-lg w-3/4 relative transition-transform transform hover:scale-105 duration-300 border border-gray-300">
+  {/* Green Star */}
+  <div className="w-8 h-8 bg-green-500 text-white flex justify-center items-center rounded-full">
+    
+  </div>
+  {/* Text content */}
+  <div>
+    <h3 className="text-xl font-semibold text-[color:#324d67]">TEA YIELD PREDICTION USING NDVI</h3>
+    <p className="mt-2 text-justify">
+      The second objective involves utilizing the NDVI derived from multispectral images to estimate the yield potential of tea plantations. By monitoring the vigor and health of the tea plants over time and correlating this with environmental conditions, the system will provide early yield estimates. This will allow plantation managers to optimize resource allocation, plan for harvests more efficiently, and predict production levels well in advance, contributing to better overall plantation management and profitability.
+    </p>
+  </div>
+  {/* Green Star */}
+  <div className="w-8 h-8 bg-green-500 text-white flex justify-center items-center rounded-full">
+    
+  </div>
+</div>
+
 
         {/* Objective 3 */}
-        <div className="flex flex-row items-start gap-4 p-6 bg-white shadow-md rounded-lg w-3/4 relative transition-transform transform hover:scale-105 duration-300">
+        <div className="flex flex-row items-start gap-4 p-6 bg-white shadow-md rounded-lg w-3/4 relative transition-transform transform hover:scale-105 duration-300 border border-gray-30">
           {/* Green Star */}
           <div className="w-8 h-8 bg-green-500 text-white flex justify-center items-center rounded-full">
             
@@ -259,7 +260,7 @@ const ProjectScope = () => {
         </div>
 
         {/* Objective 4 */}
-        <div className="flex flex-row items-start gap-4 p-6 bg-white shadow-md rounded-lg w-3/4 relative transition-transform transform hover:scale-105 duration-300">
+        <div className="flex flex-row items-start gap-4 p-6 bg-white shadow-md rounded-lg w-3/4 relative transition-transform transform hover:scale-105 duration-300 border border-gray-300">
           {/* Green Star */}
           <div className="w-8 h-8 bg-green-500 text-white flex justify-center items-center rounded-full">
             
@@ -277,7 +278,7 @@ const ProjectScope = () => {
           </div>
         </div>
         {/* Objective 4 */}
-        <div className="flex flex-row items-start gap-4 p-6 bg-white shadow-md rounded-lg w-3/4 relative transition-transform transform hover:scale-105 duration-300">
+        <div className="flex flex-row items-start gap-4 p-6 bg-white shadow-md rounded-lg w-3/4 relative transition-transform transform hover:scale-105 duration-300 border border-gray-300">
           {/* Green Star */}
           <div className="w-8 h-8 bg-green-500 text-white flex justify-center items-center rounded-full">
             

@@ -100,18 +100,23 @@ const Footer = () => {
               <nav aria-label="Footer Navigation - Helpful Links" className="mt-6">
                 <ul className="space-y-4 text-sm">
                   <li>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75">
-                      Project Scope
+                    <a href="#home" className="text-gray-700 transition hover:opacity-75">
+                      Home
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75">
+                    <a href="#domain" className="text-gray-700 transition hover:opacity-75">
+                      Domain
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#milestones" className="text-gray-700 transition hover:opacity-75">
                       Milestones
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75">
-                      Documents
+                    <a href="#documents" className="text-gray-700 transition hover:opacity-75">
+                      Documents 
                     </a>
                   </li>
                   
@@ -125,12 +130,12 @@ const Footer = () => {
               <nav aria-label="Footer Navigation - Legal" className="mt-6">
                 <ul className="space-y-4 text-sm">
                   <li>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75">
+                    <a href="#aboutUs" className="text-gray-700 transition hover:opacity-75">
                       About Us
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75">
+                    <a href="#contactUs" className="text-gray-700 transition hover:opacity-75">
                       Contact Us
                     </a>
                   </li>

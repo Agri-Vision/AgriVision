@@ -22,7 +22,7 @@ const ContactUs = () => {
     e.preventDefault();
 
     const formUrl = 'https://api.web3forms.com/submit'; // Web3Forms API endpoint
-    const accessKey = '79901eb3-da35-4ad3-baea-55f2ac2dec96'; // Replace with your Web3Forms API key
+    const accessKey = '79901eb3-da35-4ad3-baea-55f2ac2dec96'; // Web3Forms API key
 
     const form = new FormData();
     form.append('access_key', accessKey);
