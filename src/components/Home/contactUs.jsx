@@ -40,7 +40,7 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="min-h-screen bg-blue-100 flex items-center justify-center">
+    <div className="min-h-screen bg-blue-100 flex items-center justify-center" id="contactUs">
       <div className="w-full max-w-4xl bg-white shadow-lg rounded-lg overflow-hidden md:flex">
         <div className="w-full md:w-1/2 px-6 py-8">
           <h2 className="text-2xl font-semibold text-gray-700">Send us a Message</h2>

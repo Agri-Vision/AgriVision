@@ -1,13 +1,15 @@
 import React from 'react';
 import './projectScope.css';
 import teaGrowth from './Img/teaGrowth.png';
-import { FaSearch, FaChartLine, FaComments } from 'react-icons/fa';
+import WebApplication from './Img/WebSite.png';
+import { FaSearch, FaChartLine, FaComments, FaLightbulb, FaLeaf, FaTree, FaCog, FaRocket, FaFlask } from 'react-icons/fa';
+
 
 const ProjectScope = () => {
   return (
-    <div className="mt-10">
+    <div className="mt-10" id="domain">
       <div className="mt-[60px] text-3xl text-center  capitalize text-[color:#324d67] mb-3 font-semibold">
-        <h2> PROJECT SCOPE</h2>
+        <h2> Domain</h2>
         <div className="w-20 h-1 mb-5 mx-auto bg-[#669b6d]"></div>
       </div>
 
@@ -16,7 +18,7 @@ const ProjectScope = () => {
         {/* Left Column - Text */}
         <div className="w-full lg:w-2/4 p-4 ml-44">
 
-        <div className="mt-[60px] text-2xl text-left mb-8 capitalize text-[color:#324d67] mb-3 font-semibold">
+        <div className="mt-[60px] text-2xl text-left mb-8 capitalize text-[color:#324d67] mb-3 font-semibold" id="literatureSurvey">
         <h2>LITERATURE SURVEY</h2>
       </div>
 
@@ -41,6 +43,13 @@ const ProjectScope = () => {
           investigation. These gaps in the existing research present a significant opportunity to develop integrated systems that combine multispectral 
           imaging, IoT data, and machine learning to address the unique challenges of tea plantations.
           </p>
+          <p className="text-sm leading-relaxed text-justify">
+          [1] Barman, T. (Year). Tea Bush Health Determination and Yield Estimation. Study using Landsat-7 ETM+ remote sensing data and GIS, Tea Board of India.<br></br>
+          [2] [Research Study from Pakistan] A Hybrid Approach to Tea Crop Yield Prediction Using Simulation Models and Machine Learning.<br></br>
+          [3] Wayamba University of Sri Lanka (Year). Estimating Rice Crop Parameters During the 'Yala' Season in Sri Lanka Using UAV Multispectral Indices.
+
+          </p>
+
         </div>
 
         {/* Right Column - Image */}
@@ -58,7 +67,7 @@ const ProjectScope = () => {
 <div className=" mt-10 ml-48 mr-12">
       {/* Heading */}
 
-      <div className="mt-[60px] text-2xl text-left  capitalize text-[color:#324d67] mb-3 font-semibold">
+      <div className="mt-[60px] text-2xl text-left  capitalize text-[color:#324d67] mb-3 font-semibold" id="researchGap">
       <h2>RESEARCH GAP</h2>
         
       </div>
@@ -69,12 +78,11 @@ const ProjectScope = () => {
       {/* Cards Container */}
       <div className="flex flex-wrap justify-center  px-4">
         {/* Card 1 */}
-        <div className="w-full lg:w-1/4 p-6 bg-white shadow-lg rounded-lg border border-green-500 h-80">
-          <div className="flex justify-center mb-4">
-            <FaSearch className="text-green-600 text-4xl" />
-          </div>
+        <div className="w-full lg:w-1/4 p-6 bg-white shadow-lg rounded-lg border border-green-500 h-[320px]">
+          
           <h3 className="text-xl font-semibold text-center mb-2">
           Tea Yield Prediction
+          <div className="w-20 h-1 mb-5 mx-auto bg-[#669b6d]"></div>
           </h3>
           <p className="text-justify text-gray-600">
           Limited research has focused specifically on tea yield prediction. The use of multispectral drone imagery for yield estimation
@@ -83,12 +91,11 @@ const ProjectScope = () => {
         </div>
 
         {/* Card 2 */}
-        <div className="w-full lg:w-1/4 p-6 bg-white shadow-lg rounded-lg border border-green-500 h-80">
-          <div className="flex justify-center mb-4">
-            <FaChartLine className="text-green-600 text-4xl" />
-          </div>
+        <div className=" w-full lg:w-1/4 p-6 bg-white shadow-lg rounded-lg border border-green-500 h-[320px]">
+          
           <h3 className="text-xl font-semibold text-center mb-2">
           Plant Stress Detection
+          <div className="w-20 h-1 mb-5 mx-auto bg-[#669b6d]"></div>
           </h3>
           <p className="text-justify text-gray-600">
           Early detection of stress in tea plants is vital for maintaining yield. Current systems rely on limited imaging techniques, and there is a need for 
@@ -97,12 +104,11 @@ const ProjectScope = () => {
         </div>
 
         {/* Card 3 */}
-        <div className="w-full lg:w-1/4 p-6 bg-white shadow-lg rounded-lg border border-green-500 h-80">
-          <div className="flex justify-center mb-4">
-            <FaComments className="text-green-600 text-4xl" />
-          </div>
+        <div className="w-full lg:w-1/4 p-6 bg-white shadow-lg rounded-lg border border-green-500 h-[320px]">
+          
           <h3 className="text-xl font-semibold text-center mb-2">
           Disease Identification
+          <div className="w-20 h-1 mb-5 mx-auto bg-[#669b6d]"></div>
           </h3>
           <p className="text-justify text-gray-600">
           Despite advancements in remote sensing for disease detection, there are few practical systems specifically targeting tea diseases like brown blight. 
@@ -110,12 +116,11 @@ const ProjectScope = () => {
           </p>
         </div>
         {/* Card 4 */}
-        <div className="w-full lg:w-1/4 p-6 bg-white shadow-lg rounded-lg border border-green-500 h-80">
-          <div className="flex justify-center mb-4">
-            <FaComments className="text-green-600 text-4xl" />
-          </div>
+        <div className="w-full lg:w-1/4 p-6 bg-white shadow-lg rounded-lg border border-green-500 h-[320px]">
+          
           <h3 className="text-xl font-semibold text-center mb-2">
           Multispectral Image Processing
+          <div className="w-20 h-1 mb-5 mx-auto bg-[#669b6d]"></div>
           </h3>
           <p className="text-justify text-gray-600">
           While multispectral imaging is effective in capturing plant health data, current systems lack advanced processing techniques to fully utilize this data.
@@ -130,7 +135,7 @@ const ProjectScope = () => {
 <div className=" mt-10 ml-48 mr-12">
       {/* Heading */}
 
-      <div className="mt-[60px] text-2xl text-left  capitalize text-[color:#324d67] mb-3 font-semibold">
+      <div className="mt-[60px] text-2xl text-left  capitalize text-[color:#324d67] mb-3 font-semibold" id="researchProblem">
       <h2>RESEARCH PROBLEM & SOLUTION</h2>
       </div>
       
@@ -159,17 +164,17 @@ const ProjectScope = () => {
       <div className="flex flex-wrap justify-center ">
           
               {/* Right Column - Image */}
-              <div className="w-full lg:w-1/4 p-4">
+              <div className="w-full lg:w-2/4 p-4">
                 <img
-                  src={teaGrowth}
-                  alt="Tea Growth"
+                  src={WebApplication}
+                  alt="Web Application UI"
                   className="w-full h-auto"
                 />
               </div>
 
               <div className="w-full lg:w-2/4 ">
 
-                <p className="text-lg leading-relaxed text-justify">
+                <p className="text-lg leading-relaxed text-justify mt-[35px] ml-8">
                 The proposed solution is to develop a comprehensive tea plantation monitoring system that integrates multispectral drone imagery, 
                 IoT sensors, and machine learning models. This system will enable real-time monitoring of tea plantations, providing plantation managers with 
                 actionable insights for early stress detection, yield estimation, and disease identification. By leveraging data from multiple sources, including 
@@ -189,7 +194,7 @@ const ProjectScope = () => {
 
       {/* New Section: Research Objectives */}
 
-      <div className="mt-[80px] text-3xl text-center  capitalize text-[color:#324d67] mb-5 font-semibold">
+      <div className="mt-[80px] text-3xl text-center  capitalize text-[color:#324d67] mb-5 font-semibold" id="researchObjectives">
         <h2>RESEARCH OBJECTIVES</h2>
         <div className="w-20 h-1 mb-5 mx-auto bg-[#669b6d]"></div>
       </div>
@@ -200,14 +205,18 @@ const ProjectScope = () => {
         <div className="flex flex-row items-start gap-4 p-6 bg-white shadow-md rounded-lg w-3/4 relative transition-transform transform hover:scale-105 duration-300">
           {/* Green Star */}
           <div className="w-8 h-8 bg-green-500 text-white flex justify-center items-center rounded-full">
-            ★
+            
           </div>
           {/* Text content */}
           <div>
-            <h3 className="text-xl font-semibold">Collect and Analyze Multispectral Images and IoT Data</h3>
+            <h3 className="text-xl font-semibold  text-[color:#324d67]">COLLECT AND ANALYZE MULTISPECTRAL IMAGES AND IOT DATA</h3>
             <p className="mt-2 text-justify">
             The first objective is to gather high-resolution multispectral images using drones and integrate this data with real-time environmental data collected through IoT devices placed throughout the tea plantation. The IoT sensors monitor critical environmental parameters such as soil moisture, temperature, humidity, and UV radiation. By combining these two data sources, the system aims to provide a comprehensive view of the plantation’s health, allowing for more accurate analysis and decision-making regarding the overall condition of the crops.
              </p>
+          </div>
+          {/* Green Star */}
+          <div className="w-8 h-8 bg-green-500 text-white flex justify-center items-center rounded-full">
+            
           </div>
         </div>
 
@@ -215,14 +224,18 @@ const ProjectScope = () => {
         <div className="flex flex-row items-start gap-4 p-6 bg-white shadow-md rounded-lg w-3/4 relative transition-transform transform hover:scale-105 duration-300">
           {/* Green Star */}
           <div className="w-8 h-8 bg-green-500 text-white flex justify-center items-center rounded-full">
-            ★
+            
           </div>
           {/* Text content */}
           <div>
-            <h3 className="text-xl font-semibold">Tea Yield Prediction using NDVI</h3>
+            <h3 className="text-xl font-semibold  text-[color:#324d67]">TEA YIELD PREDICTION USING NDVI</h3>
             <p className="mt-2 text-justify">
             The second objective involves utilizing the NDVI derived from multispectral images to estimate the yield potential of tea plantations. By monitoring the vigor and health of the tea plants over time and correlating this with environmental conditions, the system will provide early yield estimates. This will allow plantation managers to optimize resource allocation, plan for harvests more efficiently, and predict production levels well in advance, contributing to better overall plantation management and profitability.
             </p>
+          </div>
+          {/* Green Star */}
+          <div className="w-8 h-8 bg-green-500 text-white flex justify-center items-center rounded-full">
+            
           </div>
         </div>
 
@@ -230,14 +243,18 @@ const ProjectScope = () => {
         <div className="flex flex-row items-start gap-4 p-6 bg-white shadow-md rounded-lg w-3/4 relative transition-transform transform hover:scale-105 duration-300">
           {/* Green Star */}
           <div className="w-8 h-8 bg-green-500 text-white flex justify-center items-center rounded-full">
-            ★
+            
           </div>
           {/* Text content */}
           <div>
-            <h3 className="text-xl font-semibold">Develop Stress Detection System</h3>
+            <h3 className="text-xl font-semibold  text-[color:#324d67]">DEVELOP STRESS DETECTION SYSTEM</h3>
             <p className="mt-2 text-justify">
             The third objective focuses on creating a system that leverages the multispectral data in combination with the IoT sensor readings to detect early signs of stress in tea plants. By analyzing specific vegetation indices such as NDVI (Normalized Difference Vegetation Index) and RENDVI (Red-Edge NDVI), along with environmental factors like soil moisture and temperature, the system will be able to provide real-time insights into the stress levels of plants. This will help plantation managers take timely action to mitigate the impact of environmental or biological stressors on crop health and yield.
             </p>
+          </div>
+          {/* Green Star */}
+          <div className="w-8 h-8 bg-green-500 text-white flex justify-center items-center rounded-full">
+            
           </div>
         </div>
 
@@ -245,28 +262,36 @@ const ProjectScope = () => {
         <div className="flex flex-row items-start gap-4 p-6 bg-white shadow-md rounded-lg w-3/4 relative transition-transform transform hover:scale-105 duration-300">
           {/* Green Star */}
           <div className="w-8 h-8 bg-green-500 text-white flex justify-center items-center rounded-full">
-            ★
+            
           </div>
           {/* Text content */}
           <div>
-            <h3 className="text-xl font-semibold">Disease Detection and Identification</h3>
+            <h3 className="text-xl font-semibold  text-[color:#324d67]">DISEASE DETECTION AND IDENTIFICATION</h3>
             <p className="mt-2 text-justify">
-            The fourth objective is to implement machine learning models that can accurately identify diseases such as brown blight in tea plants. Using the spectral data obtained from the drone-captured multispectral images, the system will train models to detect specific patterns associated with various diseases. Early identification of diseases will enable plantation managers to implement timely interventions, thereby minimizing the spread of infections and reducing the potential loss of crops due to untreated diseases
+            The fourth objective is to implement machine learning models that can accurately identify diseases such as brown blight in tea plants. Using the spectral data obtained from the drone-captured multispectral images, the system will train models to detect specific patterns associated with various diseases. Early identification of diseases will enable plantation managers to implement timely interventions, thereby minimizing the spread of infections and reducing the potential loss of crops due to untreated diseases.
             </p>
+          </div>
+          {/* Green Star */}
+          <div className="w-8 h-8 bg-green-500 text-white flex justify-center items-center rounded-full">
+            
           </div>
         </div>
         {/* Objective 4 */}
         <div className="flex flex-row items-start gap-4 p-6 bg-white shadow-md rounded-lg w-3/4 relative transition-transform transform hover:scale-105 duration-300">
           {/* Green Star */}
           <div className="w-8 h-8 bg-green-500 text-white flex justify-center items-center rounded-full">
-            ★
+            
           </div>
           {/* Text content */}
           <div>
-            <h3 className="text-xl font-semibold">Visualization and Web Application</h3>
+            <h3 className="text-xl font-semibold  text-[color:#324d67]">VISUALIZATION AND WEB APPLICATION</h3>
             <p className="mt-2 text-justify">
             The final objective is to develop a web-based platform that provides an interactive visualization of the analyzed data, including yield predictions, stress maps, and disease detection results. The platform will be user-friendly and accessible to plantation managers and stakeholders, allowing them to monitor their plantations remotely in real-time. The visualized data will help stakeholders make informed decisions regarding resource allocation, plantation management, and overall strategy to maximize productivity and sustainability.
             </p>
+          </div>
+          {/* Green Star */}
+          <div className="w-8 h-8 bg-green-500 text-white flex justify-center items-center rounded-full">
+            
           </div>
         </div>
 

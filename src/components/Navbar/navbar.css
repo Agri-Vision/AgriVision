@@ -190,3 +190,15 @@ Variables
     }
   }
   
+  .group-hover\:block {
+    display: block;
+  }
+  
+  .group-hover\:opacity-100 {
+    opacity: 1;
+  }
+  
+  .group-hover\:visible {
+    visibility: visible;
+  }
+  

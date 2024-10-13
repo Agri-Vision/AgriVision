@@ -10,9 +10,9 @@ import prathila from './Img/prathila.jpeg'
 
 const aboutUs = () => {
   return (
-    <div className="mt-10 mb-10">
+    <div className="mt-10 mb-10" id="aboutUs">
       <div className=" min-h-screen flex flex-wrap items-center justify-around">
-        <div className="container mx-auto">
+        <div className="container mx-auto" >
 
         <h2 className="text-3xl font-bold text-center mb-2">ABOUT US</h2>
         <p className="text-center text-gray-600 mb-8">Meet Our Team</p>

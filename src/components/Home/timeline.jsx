@@ -63,7 +63,7 @@ const Timeline = () => {
   ];
 
   return (
-    <div className="bg-gray-100 min-h-screen py-10 mt-14">
+    <div className="bg-gray-100 min-h-screen py-10 mt-14" id="milestones">
       <div className="max-w-4xl mx-auto px-4">
         <h2 className="text-3xl font-bold mb-6  text-[color:#324d67] text-left mt-10">MILESTONES - Timeline in Brief</h2>
         

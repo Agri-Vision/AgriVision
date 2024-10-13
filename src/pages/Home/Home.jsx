@@ -5,6 +5,7 @@ import ProjectScope from '../../components/Home/projectScope'
 import Milestones from '../../components/Home/milestones'
 import Documents from '../../components/Home/documents'
 import AboutUs from '../../components/Home/aboutUs'
+import Gallery from '../../components/Home/gallery'
 import ContactUs from '../../components/Home/contactUs'
 import Timeline from '../../components/Home/timeline'
 
@@ -28,6 +29,9 @@ export const Home = () => {
         </div>
         <div className="">
           <AboutUs />
+        </div>
+        <div className="">
+          <Gallery />
         </div>
         <div className="">
           <ContactUs />
