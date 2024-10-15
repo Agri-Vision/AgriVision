@@ -7,10 +7,7 @@ const IndexRoutes = () => {
   return (
     <div>
       <Navbar />
-
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
+      <Home />
       <Footer />
     </div>
   )
