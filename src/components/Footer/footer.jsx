@@ -1,27 +1,26 @@
 import React from 'react';
 import pic from '../Navbar/logo.png';
-import useAuth from '../../hooks/useAuth';
 
 const Footer = () => {
-  const { auth } = useAuth();
-  return auth?.role !== 'admin' ? (
+  return  (
     <footer
       aria-label="Site Footer"
       className="bg-white border border-gray-200 mt-20"
     >
       <div className="max-w-screen-xl px-4 py-16 mx-auto space-y-8 sm:px-6 lg:space-y-16 lg:px-8">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
-          <div>
+          {/* Logo and Social Media Section */}
+          <div className="flex flex-col items-start">
             <div className="text-teal-600">
-              <img src={pic} className="w-32 h-32" alt="logo" />
+              <img src={pic} className="w-32 h-32 mb-4" alt="logo" />
             </div>
 
-            <p className="max-w-xs mt-4 text-gray-500">
+            <p className="text-gray-500">
               THE MOST POWERFUL FIELD ANALYTICS TOOL FOR PRECISION AGRICULTURE
             </p>
 
+            {/* Social media icons */}
             <ul className="flex gap-6 mt-8">
-              {/* Social media icons */}
               {/* Facebook */}
               <li>
                 <a
@@ -72,28 +71,27 @@ const Footer = () => {
                   </svg>
                 </a>
               </li>
+              {/* LinkedIn */}
               <li>
-  <a
-    href="/"
-    rel="noreferrer"
-    target="_blank"
-    className="text-gray-700 transition hover:opacity-75"
-  >
-    <span className="sr-only">LinkedIn</span>
-    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-      <path
-        d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11.75 19.5h-3v-11h3v11zm-1.5-12.5c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm13.25 12.5h-3v-5.5c0-1.379-.028-3.156-2.031-3.156-2.032 0-2.344 1.5-2.344 3.057v5.599h-3v-11h2.884v1.496h.041c.401-.759 1.384-1.558 2.846-1.558 3.044 0 3.605 2.002 3.605 4.607v6.455z"
-      />
-    </svg>
-  </a>
-</li>
-
-              
+                <a
+                  href="/"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="text-gray-700 transition hover:opacity-75"
+                >
+                  <span className="sr-only">LinkedIn</span>
+                  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11.75 19.5h-3v-11h3v11zm-1.5-12.5c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm13.25 12.5h-3v-5.5c0-1.379-.028-3.156-2.031-3.156-2.032 0-2.344 1.5-2.344 3.057v5.599h-3v-11h2.884v1.496h.041c.401-.759 1.384-1.558 2.846-1.558 3.044 0 3.605 2.002 3.605 4.607v6.455z"
+                    />
+                  </svg>
+                </a>
+              </li>
             </ul>
           </div>
 
           {/* Footer links */}
-          <div className="grid grid-cols-1 gap-64 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-2">
+          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-2">
             {/* Column 1 */}
             <div>
               <h3 className="text-lg font-semibold">Helpful Links</h3>
@@ -119,7 +117,6 @@ const Footer = () => {
                       Documents 
                     </a>
                   </li>
-                  
                 </ul>
               </nav>
             </div>
@@ -139,19 +136,17 @@ const Footer = () => {
                       Contact Us
                     </a>
                   </li>
-                  
                 </ul>
               </nav>
             </div>
           </div>
         </div>
 
-        <p className="text-xs text-gray-500">&copy; 2024. AgriVision. All rights reserved.</p>
+        {/* Footer Copy */}
+        <p className="text-xs text-gray-500 text-center">&copy; 2024. AgriVision. All rights reserved.</p>
       </div>
     </footer>
-  ) : (
-    ''
-  );
+  ) 
 };
 
 export default Footer;

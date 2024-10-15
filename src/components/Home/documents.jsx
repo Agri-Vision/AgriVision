@@ -57,7 +57,6 @@ const Documents1 = [
   
 ];
 
-
 const Presentations = [
   {
     title: "Project Proposal",
@@ -85,16 +84,15 @@ const Presentations = [
   }
 ];
 
-
 const documents = () => {
   return (
     <section className="py-8 bg-gray-100">
       {/* All Documents */}
       <div className="container mx-auto px-2">
-        <h2 className="text-3xl font-bold text-Left mb-4 mt-10 " id="documents">DOCUMENTS</h2>
+        <h2 className="text-3xl font-bold text-center mb-4 mt-10" id="documents">DOCUMENTS</h2>
         <p className="text-center text-gray-600 mb-8">Please find all documents related to this research below.</p>
 
-        <div className="ml-10 grid grid-cols-5 gap-2 justify-center ">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-1 justify-items-center items-center">
           {Documents.map((doc, index) => (
             <a
               key={index}
@@ -113,7 +111,7 @@ const documents = () => {
           ))}
         </div>
 
-        <div className="ml-10 grid grid-cols-5 gap-2 justify-center ">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-1 justify-items-center items-center">
           {Documents1.map((doc, index) => (
             <a
               key={index}
@@ -131,15 +129,15 @@ const documents = () => {
             </a>
           ))}
         </div>
-
       </div>
 
-{/* All Presentations */}
-      <div className="container mx-auto px-2">
-        <h2 className="text-3xl font-bold text-center mb-4 mt-10" id="presentations">PRESENTATIONS</h2>
+      {/* All Presentations */}
+      <div className="container mx-auto px-2 mt-16">
+        <h2 className="text-3xl font-bold text-center mb-4" id="presentations">PRESENTATIONS</h2>
         <p className="text-center text-gray-600 mb-8">Please find all presentations related to this research below.</p>
 
-        <div className="ml-10 grid grid-cols-5 gap-4 justify-center">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-1 justify-items-center items-center">
+
           {Presentations.map((doc, index) => (
             <a
               key={index}
@@ -157,14 +155,9 @@ const documents = () => {
             </a>
           ))}
         </div>
-        
       </div>
     </section>
-
-    
   );
 };
 
-
-
-export default documents
+export default documents;

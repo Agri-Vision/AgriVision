@@ -18,9 +18,9 @@ import tensorflow from './Img/tensorflow.png';
 
 const technologies = () => {
   return (
-    <div className="mt-10" id="technologies">
+    <div className="" id="technologies">
       <div className="p-8">
-        <h2 className="text-3xl  text-[color:#324d67] font-bold mb-11 mt-10">TECHNOLOGIES AND TOOLS USED</h2>
+        <h2 className="text-3xl  text-[color:#324d67] font-bold mb-11">TECHNOLOGIES AND TOOLS USED</h2>
         <div className="grid grid-cols-6 gap-4 mr-48 ml-48"> 
 
           <div className="flip-card">

@@ -1,14 +1,11 @@
 import React from 'react'
-
-
 import ProjectScope from '../../components/Home/projectScope'
-import Milestones from '../../components/Home/milestones'
+import Technologies from '../../components/Home/technologies'
 import Documents from '../../components/Home/documents'
 import AboutUs from '../../components/Home/aboutUs'
 import Gallery from '../../components/Home/gallery'
 import ContactUs from '../../components/Home/contactUs'
 import Timeline from '../../components/Home/timeline'
-
 
 export const Home = () => {
   return (
@@ -19,7 +16,7 @@ export const Home = () => {
           <ProjectScope />
         </div>
         <div className="">
-          <Milestones />
+          <Technologies />
         </div>
         <div className="">
           <Timeline />

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 
 const Gallery = () => {
-  // Sample image URLs from Unsplash and other free-to-use placeholder sites
+ 
   const images = [
     'https://res.cloudinary.com/dwutcpv9n/image/upload/v1728849365/Picture5_nodt5l.jpg',
     'https://res.cloudinary.com/dwutcpv9n/image/upload/v1728849366/Picture12_kzddrl.png',
@@ -16,8 +16,6 @@ const Gallery = () => {
     'https://res.cloudinary.com/dwutcpv9n/image/upload/v1728849601/Picture15_ff2q5w.png',
     'https://res.cloudinary.com/dwutcpv9n/image/upload/v1728849598/Picture18_ydmwnm.png',
     'https://res.cloudinary.com/dwutcpv9n/image/upload/v1728849798/Picture16_j3nkzy.jpg'
-
-
   ]
 
   // State to handle the lightbox visibility and the selected image
