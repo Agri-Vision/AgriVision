@@ -2,8 +2,6 @@ import React from 'react';
 import './projectScope.css';
 import teaGrowth from './Img/teaGrowth.png';
 import WebApplication from './Img/WebSite.png';
-import { FaSearch, FaChartLine, FaComments, FaLightbulb, FaLeaf, FaTree, FaCog, FaRocket, FaFlask } from 'react-icons/fa';
-
 
 const ProjectScope = () => {
   return (

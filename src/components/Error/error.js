@@ -5,7 +5,7 @@ import useAuth from '../../hooks/useAuth'
 
 const Error = () => {
   const { auth } = useAuth()
-  return auth?.role != 'admin' ? (
+  return auth?.role !== 'admin' ? (
     <section
       class="flex justify-center items-center mt-[70px]"
       className="page-404"

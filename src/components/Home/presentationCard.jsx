@@ -1,5 +1,4 @@
 import React from 'react';
-import pdfIcon from '../Home/pdfIcon.png'
 
 import { FaFilePowerpoint  } from 'react-icons/fa'; 
 

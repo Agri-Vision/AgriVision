@@ -1,5 +1,4 @@
 import React from 'react';
-import pdfIcon from '../Home/pdfIcon.png'
 import { FaFilePdf } from 'react-icons/fa'; 
 
 const DocumentCard = ({ title, date, type, downloadLink }) => {

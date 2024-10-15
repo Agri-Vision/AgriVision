@@ -4,7 +4,7 @@ import useAuth from '../../hooks/useAuth';
 
 const Footer = () => {
   const { auth } = useAuth();
-  return auth?.role != 'admin' ? (
+  return auth?.role !== 'admin' ? (
     <footer
       aria-label="Site Footer"
       className="bg-white border border-gray-200 mt-20"

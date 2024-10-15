@@ -16,7 +16,7 @@ const Methodology = () => {
   };
 
   return (
-    <div className="methodology-container mt-10" id="methodology">
+    <div className="methodology-container mt-10 justify-center items-center" id="methodology">
       <div className="mt-[60px] text-2xl text-center mb-8 capitalize text-[color:#324d67] mb-3 font-semibold">
         <h2 className="text-3xl font-bold mb-8">  METHODOLOGY</h2>
         <div className="image-wrapper">
