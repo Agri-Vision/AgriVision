@@ -32,7 +32,7 @@ const aboutUs = () => {
       <p className="text-gray-600 text-sm"><strong>Department: </strong>Software Engineering</p>
       <div className="mt-2 flex  text-blue-600 ">
       <a href="mailto:vishan.j@sliit.lk"><FaEnvelope className="text-2xl"/></a>
-      <a href="https://www.linkedin.com/in/vishanj/"><FaLinkedin className="text-2xl"/></a>
+      <a href="https://www.linkedin.com/in/vishanj/"><FaLinkedin className="ml-5 text-2xl"/></a>
       </div>
     </div>
   </div>
@@ -49,7 +49,7 @@ const aboutUs = () => {
       <p className="text-gray-600 text-sm"><strong>Department: </strong>Software Engineering</p>
       <div className="mt-2 flex  text-blue-600 ">
       <a href="mailto:kapila.d@sliit.lk"><FaEnvelope className="text-2xl"/></a>
-      <a href="https://www.linkedin.com/in/kapila-d-dissanayaka/"><FaLinkedin className="text-2xl"/></a>
+      <a href="https://www.linkedin.com/in/kapila-d-dissanayaka/"><FaLinkedin className="ml-5 text-2xl"/></a>
       </div>
     </div>
   </div>
@@ -66,12 +66,12 @@ const aboutUs = () => {
       <div className="absolute bottom-0 left-0 bg-red-500 text-white px-2 py-1 text-sm font-bold">Group Leader</div>
     </div>
     <div className="p-6 text-left">
-      <h3 className="text-gray-600 font-semibold text-lg mb-2">K.P.W.D.V.Kariyawasam</h3>
+      <h3 className="text-gray-600 font-semibold text-lg mb-2">Dinuka Kariyawasam</h3>
       <p className="text-gray-600 text-sm">Sri Lanka Institute of Information Technology (SLIIT)</p>
       <p className="text-gray-600 text-sm"><strong>Department: </strong>Software Engineering</p>
       <div className="mt-2 flex  text-blue-600 ">
       <a href="mailto:dvkariyawasam@gmail.com"><FaEnvelope className="text-2xl"/></a>
-      <a href="https://www.linkedin.com/in/dinuka-kariyawasam-46248725b/"><FaLinkedin className="text-2xl"/></a>
+      <a href="https://www.linkedin.com/in/dinuka-kariyawasam-46248725b/"><FaLinkedin className="ml-5 text-2xl"/></a>
       </div>
     </div>
   </div>
@@ -88,7 +88,7 @@ const aboutUs = () => {
       <p className="text-gray-600 text-sm"><strong>Department: </strong>Software Engineering</p>
       <div className="mt-2 flex  text-blue-600 ">
       <a href="mailto:prathila01@gmail.com"><FaEnvelope className="text-2xl"/></a>
-      <a href="https://www.linkedin.com/in/prathila-kahandagamage-70a495b3/"><FaLinkedin className="text-2xl"/></a>
+      <a href="https://www.linkedin.com/in/prathila-kahandagamage-70a495b3/"><FaLinkedin className="ml-5 text-2xl"/></a>
       </div>
     </div>
   </div>
@@ -105,7 +105,7 @@ const aboutUs = () => {
       <p className="text-gray-600 text-sm"><strong>Department: </strong>Software Engineering</p>
       <div className="mt-2 flex  text-blue-600 ">
       <a href="mailto:joelmilendra@gmail.com"><FaEnvelope className="text-2xl"/></a>
-      <a href="https://www.linkedin.com/in/joel-milendra-055761247/"><FaLinkedin className="text-2xl"/></a>
+      <a href="https://www.linkedin.com/in/joel-milendra-055761247/"><FaLinkedin className="ml-5 text-2xl"/></a>
       </div>
     </div>
   </div>
@@ -122,7 +122,7 @@ const aboutUs = () => {
       <p className="text-gray-600 text-sm"><strong>Department: </strong>Software Engineering</p>
       <div className="mt-2 flex  text-blue-600 ">
       <a href="mailto:fernandorivindu2@gmail.com"><FaEnvelope className="text-2xl"/></a>
-      <a href="https://www.linkedin.com/in/rivindu-fernando-516825246/"><FaLinkedin className="text-2xl"/></a>
+      <a href="https://www.linkedin.com/in/rivindu-fernando-516825246/"><FaLinkedin className="ml-5 text-2xl"/></a>
       </div>
     </div>
   </div>

@@ -15,6 +15,8 @@ import googleMapAPI from './Img/googleMapAPI.png';
 import docker from './Img/docker.png'; 
 import asgardeo from './Img/asgardeo.png'; 
 import tensorflow from './Img/tensorflow.png'; 
+import celeryLogo from './Img/Celery_logo.png'; 
+import rabbitmqLogo from './Img/rabbitmq.png'; 
 
 const technologies = () => {
   return (
@@ -174,6 +176,30 @@ const technologies = () => {
               </div>
               <div className="flip-card-back bg-white p-2 rounded-lg flex flex-col items-center justify-center shadow-md">
               <span className="mt-13 text-center text-black font-bold text-xl">Python</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="flip-card">
+            <div className="flip-card-inner">
+              <div className="flip-card-front bg-white p-2 rounded-lg flex flex-col items-center justify-center shadow-md">
+                <img src={celeryLogo} alt="React" className="w-28 h-28" />
+              </div>
+              <div className="flip-card-back bg-white p-2 rounded-lg flex flex-col items-center justify-center shadow-md">
+              <span className="mt-13 text-center text-black font-bold text-xl">
+              Celery</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="flip-card">
+            <div className="flip-card-inner">
+              <div className="flip-card-front bg-white p-2 rounded-lg flex flex-col items-center justify-center shadow-md">
+                <img src={rabbitmqLogo} alt="React" className="w-28 h-28" />
+              </div>
+              <div className="flip-card-back bg-white p-2 rounded-lg flex flex-col items-center justify-center shadow-md">
+              <span className="mt-13 text-center text-black font-bold text-xl">
+              RabbitMQ</span>
               </div>
             </div>
           </div>

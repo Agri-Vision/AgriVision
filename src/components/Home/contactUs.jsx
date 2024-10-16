@@ -132,6 +132,9 @@ const ContactUs = () => {
             <a href="#" className="text-white hover:text-gray-300 mx-2">
               <i className="fab fa-instagram"></i>
             </a>
+            <a href="#" className="text-white hover:text-gray-300 mx-2">
+              <i className="fab fa-linkedin"></i>
+            </a>
           </div>
         </div>
       </div>

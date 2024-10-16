@@ -203,7 +203,7 @@ const ProjectScope = () => {
         {/* Objective 1 */}
         <div className="flex flex-row items-start gap-4 p-6 bg-white shadow-md rounded-lg w-3/4 relative transition-transform transform hover:scale-105 duration-300 border border-gray-300">
           {/* Green Star */}
-          <div className="w-8 h-8 bg-green-500 text-white flex justify-center items-center rounded-full">
+          <div className="w-8 h-8 mt-16 bg-green-500 text-white flex justify-center items-center rounded-full">
             
           </div>
           {/* Text content */}
@@ -214,7 +214,7 @@ const ProjectScope = () => {
              </p>
           </div>
           {/* Green Star */}
-          <div className="w-8 h-8 bg-green-500 text-white flex justify-center items-center rounded-full">
+          <div className="w-8 h-8 mt-16 bg-green-500 text-white flex justify-center items-center rounded-full">
             
           </div>
         </div>
@@ -222,7 +222,7 @@ const ProjectScope = () => {
         {/* Objective 2 */}
 <div className="flex flex-row items-start gap-4 p-6 bg-white shadow-md rounded-lg w-3/4 relative transition-transform transform hover:scale-105 duration-300 border border-gray-300">
   {/* Green Star */}
-  <div className="w-8 h-8 bg-green-500 text-white flex justify-center items-center rounded-full">
+  <div className="w-8 h-8 bg-green-500 mt-16 text-white flex justify-center items-center rounded-full">
     
   </div>
   {/* Text content */}
@@ -233,7 +233,7 @@ const ProjectScope = () => {
     </p>
   </div>
   {/* Green Star */}
-  <div className="w-8 h-8 bg-green-500 text-white flex justify-center items-center rounded-full">
+  <div className="w-8 h-8 bg-green-500 mt-16 text-white flex justify-center items-center rounded-full">
     
   </div>
 </div>
@@ -242,7 +242,7 @@ const ProjectScope = () => {
         {/* Objective 3 */}
         <div className="flex flex-row items-start gap-4 p-6 bg-white shadow-md rounded-lg w-3/4 relative transition-transform transform hover:scale-105 duration-300 border border-gray-30">
           {/* Green Star */}
-          <div className="w-8 h-8 bg-green-500 text-white flex justify-center items-center rounded-full">
+          <div className="w-8 h-8 mt-16 bg-green-500 text-white flex justify-center items-center rounded-full">
             
           </div>
           {/* Text content */}
@@ -253,7 +253,7 @@ const ProjectScope = () => {
             </p>
           </div>
           {/* Green Star */}
-          <div className="w-8 h-8 bg-green-500 text-white flex justify-center items-center rounded-full">
+          <div className="w-8 h-8 mt-16 bg-green-500 text-white flex justify-center items-center rounded-full">
             
           </div>
         </div>
@@ -261,7 +261,7 @@ const ProjectScope = () => {
         {/* Objective 4 */}
         <div className="flex flex-row items-start gap-4 p-6 bg-white shadow-md rounded-lg w-3/4 relative transition-transform transform hover:scale-105 duration-300 border border-gray-300">
           {/* Green Star */}
-          <div className="w-8 h-8 bg-green-500 text-white flex justify-center items-center rounded-full">
+          <div className="w-8 h-8 mt-16 bg-green-500 text-white flex justify-center items-center rounded-full">
             
           </div>
           {/* Text content */}
@@ -272,14 +272,14 @@ const ProjectScope = () => {
             </p>
           </div>
           {/* Green Star */}
-          <div className="w-8 h-8 bg-green-500 text-white flex justify-center items-center rounded-full">
+          <div className="w-8 h-8 mt-16 bg-green-500 text-white flex justify-center items-center rounded-full">
             
           </div>
         </div>
         {/* Objective 4 */}
         <div className="flex flex-row items-start gap-4 p-6 bg-white shadow-md rounded-lg w-3/4 relative transition-transform transform hover:scale-105 duration-300 border border-gray-300">
           {/* Green Star */}
-          <div className="w-8 h-8 bg-green-500 text-white flex justify-center items-center rounded-full">
+          <div className="w-8 h-8 mt-16 bg-green-500 text-white flex justify-center items-center rounded-full">
             
           </div>
           {/* Text content */}
@@ -290,7 +290,7 @@ const ProjectScope = () => {
             </p>
           </div>
           {/* Green Star */}
-          <div className="w-8 h-8 bg-green-500 text-white flex justify-center items-center rounded-full">
+          <div className="w-8 h-8 mt-16 bg-green-500 text-white flex justify-center items-center rounded-full">
             
           </div>
         </div>
