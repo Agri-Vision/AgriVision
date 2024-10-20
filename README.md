@@ -9,9 +9,9 @@ Dr.Kapila Dissanayaka (Co-Supervisor)
 
 Members:\
 [Dinuka Kariyawasam](https://www.linkedin.com/in/dinuka-kariyawasam-46248725b/) \
-Prathila Kahandagamge\
-Joel Milendra\
-Rivindu Fernando
+[Prathila Kahandagamge](https://www.linkedin.com/in/prathila-kahandagamage-70a495b3/)\
+[Joel Milendra](https://www.linkedin.com/in/joel-milendra-055761247/)\
+[Rivindu Fernando](https://www.linkedin.com/in/rivindu-fernando-516825246/)
 
 Web Link: https://agri-vision.github.io/AgriVision
 
