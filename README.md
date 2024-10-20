@@ -1,6 +1,15 @@
 ### AgriVision offers an all-in-one solution for plantation owners and managers, combining advanced drone imaging, IoT data, and AI-driven insights. Optimize your resources, increase productivity, and boost profitability with real-time field analytics tailored for precision agriculture. Empower your business with AgriVision's cutting-edge technology to stay ahead in the competitive agricultural industry.
 
+Our Team:
 
+Mr.Vishan Jayasinghearachchi (Supervisor)
+Dr.Kapila Dissanayaka (Co-Supervisor)
+
+Members:
+Dinuka Kariyawasam
+Prathila Kahandagamge
+Joel Milendra
+Rivindu Fernando
 
 # Getting Started with Create React App
 
