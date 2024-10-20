@@ -1,6 +1,6 @@
 # AgriVision
 
-<div style="text-align: justify;"> ### AgriVision offers an all-in-one solution for plantation owners and managers, combining advanced drone imaging, IoT data, and AI-driven insights. Optimize your resources, increase productivity, and boost profitability with real-time field analytics tailored for precision agriculture. Empower your business with AgriVision's cutting-edge technology to stay ahead in the competitive agricultural industry. </div>
+<div style="text-align: justify;">  AgriVision offers an all-in-one solution for plantation owners and managers, combining advanced drone imaging, IoT data, and AI-driven insights. Optimize your resources, increase productivity, and boost profitability with real-time field analytics tailored for precision agriculture. Empower your business with AgriVision's cutting-edge technology to stay ahead in the competitive agricultural industry. </div>
 
 Our Team:
 
@@ -8,7 +8,7 @@ Mr.Vishan Jayasinghearachchi (Supervisor)\
 Dr.Kapila Dissanayaka (Co-Supervisor)
 
 Members:\
-Dinuka Kariyawasam\
+Dinuka Kariyawasam(https://www.linkedin.com/in/dinuka-kariyawasam-46248725b/)\
 Prathila Kahandagamge\
 Joel Milendra\
 Rivindu Fernando
