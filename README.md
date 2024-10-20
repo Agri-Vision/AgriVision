@@ -11,6 +11,8 @@ Prathila Kahandagamge\
 Joel Milendra\
 Rivindu Fernando
 
+Web: https://agri-vision.github.io/AgriVision(https://agri-vision.github.io/AgriVision)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
