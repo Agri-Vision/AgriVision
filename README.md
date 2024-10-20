@@ -8,7 +8,7 @@ Mr.Vishan Jayasinghearachchi (Supervisor)\
 Dr.Kapila Dissanayaka (Co-Supervisor)
 
 Members:\
-Dinuka Kariyawasam(https://www.linkedin.com/in/dinuka-kariyawasam-46248725b/)\
+[Dinuka Kariyawasam](https://www.linkedin.com/in/dinuka-kariyawasam-46248725b/) \
 Prathila Kahandagamge\
 Joel Milendra\
 Rivindu Fernando
