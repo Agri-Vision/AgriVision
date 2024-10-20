@@ -3,7 +3,7 @@
 Our Team:
 
 Mr.Vishan Jayasinghearachchi (Supervisor)\
-Dr.Kapila Dissanayaka (Co-Supervisor)\
+Dr.Kapila Dissanayaka (Co-Supervisor)
 
 Members:\
 Dinuka Kariyawasam\
