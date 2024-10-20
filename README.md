@@ -2,13 +2,13 @@
 
 Our Team:
 
-Mr.Vishan Jayasinghearachchi (Supervisor)
-Dr.Kapila Dissanayaka (Co-Supervisor)
+Mr.Vishan Jayasinghearachchi (Supervisor)\
+Dr.Kapila Dissanayaka (Co-Supervisor)\
 
-Members:
-Dinuka Kariyawasam
-Prathila Kahandagamge
-Joel Milendra
+Members:\
+Dinuka Kariyawasam\
+Prathila Kahandagamge\
+Joel Milendra\
 Rivindu Fernando
 
 # Getting Started with Create React App
