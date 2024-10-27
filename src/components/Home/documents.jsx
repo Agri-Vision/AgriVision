@@ -39,7 +39,7 @@ const Documents1 = [
   {
     title: "Research Paper",
     date: "2024/06/14",
-    type: "Individual",
+    type: "Group",
     downloadLink: "https://drive.google.com/file/d/1His5BDzN4tAMdLjSVyP2pfZiJ-_43TWU/view?usp=sharing"
   },
   {
@@ -51,8 +51,8 @@ const Documents1 = [
   {
     title: "Poster",
     date: "2024/12/02",
-    type: "Individual",
-    downloadLink: "#"
+    type: "Group",
+    downloadLink: "https://drive.google.com/drive/folders/1y3zijXsU3JJ6KHA5LgZwQ8bCND63ew-I?usp=sharing"
   },
   
 ];
@@ -73,13 +73,13 @@ const Presentations = [
   {
     title: "Progress Presentation II",
     date: "2024/09/11",
-    type: "Individual",
+    type: "Group",
     downloadLink: "https://docs.google.com/presentation/d/1qdjTqQUClUiPXUC9yM6Kosm7aEm-K8MJ/edit?usp=sharing&ouid=103416773477533432749&rtpof=true&sd=true"
   },
   {
     title: "Final Presentation",
     date: "2024/10/30",
-    type: "Individual",
+    type: "Group",
     downloadLink: "#"
   }
 ];
