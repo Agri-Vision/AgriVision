@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AgriVision/static/css/main.f918e780.css",
-    "main.js": "/AgriVision/static/js/main.3c6a48d4.js",
+    "main.js": "/AgriVision/static/js/main.13bfd7c1.js",
     "static/media/background.mp4": "/AgriVision/static/media/background.d6e41dd33f5308ca9104.mp4",
     "static/media/WebSite.png": "/AgriVision/static/media/WebSite.3479178b1da81d6c7770.png",
     "static/media/fa-solid-900.ttf": "/AgriVision/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
@@ -35,10 +35,10 @@
     "static/media/fa-v4compatibility.woff2": "/AgriVision/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
     "index.html": "/AgriVision/index.html",
     "main.f918e780.css.map": "/AgriVision/static/css/main.f918e780.css.map",
-    "main.3c6a48d4.js.map": "/AgriVision/static/js/main.3c6a48d4.js.map"
+    "main.13bfd7c1.js.map": "/AgriVision/static/js/main.13bfd7c1.js.map"
   },
   "entrypoints": [
     "static/css/main.f918e780.css",
-    "static/js/main.3c6a48d4.js"
+    "static/js/main.13bfd7c1.js"
   ]
 }
