@@ -13,7 +13,7 @@ const Documents = [
     title: "Project Charter",
     date: "2024/02/19",
     type: "Group",
-    downloadLink: "#"
+    downloadLink: "https://drive.google.com/file/d/1RiJd2ehlzHqzSccshj-pcJ2LLqC9al3s/view?usp=sharing"
   },
   {
     title: "Project Proposal",
